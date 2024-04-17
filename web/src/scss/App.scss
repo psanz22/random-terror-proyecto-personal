@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'Horror';
+  src: url('../fonts/Horror.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Savage';
+  src: url('../fonts/Savage.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'mom';
+  src: url('../fonts/mom.ttf') format('truetype');
+}
+h1 {
+  background-image: url('https://img.freepik.com/fotos-premium/textura-piel-serpiente-negra-fondo-negro_874239-17.jpg');
+  background-clip: text;
+  height: 300px;
+  color: transparent;
+}
+header {
+  background: linear-gradient(to bottom, red, black);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Savage';
+  font-size: 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+}
+main {
+  background: linear-gradient(to bottom, black, red);
+  // background-color: black;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 30px;
+  font-family: 'Horror';
+  color: lightgray;
+  // position: relative;
+  // bottom: 20px;
+}
+.year {
+  font-size: 30px;
+}
+.director {
+  font-size: 40px;
+  color: lightgray;
+}
+
+.film_image {
+  width: 30%;
+  border-radius: 2rem;
+}
+.description_container {
+  width: 35%;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.type {
+  color: lightgray;
+  position: relative;
+  bottom: 10px;
+  font-size: 20px;
+}
+.cast {
+  color: lightgray;
+  font-style: italic;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+h4 {
+  font-size: 50px;
+  font-family: 'mom';
+  padding-top: 78px;
+  color: black;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: lightgray;
+}

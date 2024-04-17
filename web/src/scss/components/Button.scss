@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Savage';
+  src: url('../fonts/Savage.ttf') format('truetype');
+}
+
+button {
+  padding: 70px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Savage';
+  color: lightgray;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAcSfg4gsQpAzAUw5kE7WAzOx8LCnOcR9C5Zf5O-Nz7A&s');
+  border: 5px solid black;
+  // position: relative;
+  // bottom: 10px;
+}
