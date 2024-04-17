@@ -10,7 +10,7 @@ function App() {
   const [randomNumber, setRandomNumber] = useState(0);
 
   const onClick = () => {
-    const randomNumber = Math.floor(Math.random() * 5);
+    const randomNumber = Math.floor(Math.random() * 10);
     console.log(randomNumber);
 
     return setRandomNumber(randomNumber);
