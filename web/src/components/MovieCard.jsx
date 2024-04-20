@@ -1,3 +1,5 @@
+import '../scss/components/MovieCard.scss';
+
 function MovieCard({ movies, randomNumber }) {
   if (movies.length === 0) {
     return <div>No hay películas disponibles</div>;
@@ -12,7 +14,7 @@ function MovieCard({ movies, randomNumber }) {
       </p>
       <img className='film_image' src={movies[randomNumber].poster} alt='' />
       <h6 className='cast'>{movies[randomNumber].cast}</h6>
-      <h5>{movies[randomNumber].type}</h5>
+      <h5 className='type'>{movies[randomNumber].type}</h5>
       <p className='description_container'>
         {movies[randomNumber].description}
       </p>
