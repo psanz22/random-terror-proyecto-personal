@@ -1,0 +1,1 @@
+¿Eres fan del terror y las películas bizarras y oscuras? ¿No te apetece pasarte horas buscando en listas que tienen las mismas pelis de siempre hasta encontrar una que ver? Esta web es para ti. Con solo darle a un botón te aparecerá de forma aleatoria una de las películas de terror de la base de datos que he creado. Solo qualité.
