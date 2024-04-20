@@ -7,7 +7,7 @@ function Button({ onClick }) {
   };
   return (
     <form>
-      <button onClick={handleClick}>Click Here</button>
+      <button onClick={handleClick}>Click</button>
     </form>
   );
 }

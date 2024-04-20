@@ -11,10 +11,17 @@
   src: url('../fonts/mom.ttf') format('truetype');
 }
 h1 {
+  font-size: 130px;
   background-image: url('https://img.freepik.com/fotos-premium/textura-piel-serpiente-negra-fondo-negro_874239-17.jpg');
   background-clip: text;
   height: 300px;
   color: transparent;
+}
+.question {
+  font-family: mom;
+  color: black;
+  font-size: 50%;
+  margin-bottom: 60px;
 }
 header {
   background: linear-gradient(to bottom, red, black);
@@ -31,7 +38,7 @@ header {
 main {
   background: linear-gradient(to bottom, black, red);
   // background-color: black;
-  height: 70vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,7 +84,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  background-color: black;
+  height: 2vh;
+  color: lightgray;
 }
 h4 {
   font-size: 50px;

@@ -1,8 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const mysql = require('mysql2/promise');
-
-const jwt = require('jsonwebtoken');
+require('dotenv').config();
 
 const server = express();
 
@@ -11,15 +10,15 @@ server.use(express.json({ limit: '25mb' }));
 
 async function getDBConnection() {
   const connection = await mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '3022',
-    database: 'terror',
+    host: 'sql.freedb.tech',
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: 'freedb_random-terror',
   });
 
   return connection;
 }
-const port = 6001;
+const port = process.env.PORT || 6001;
 server.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);
 });
