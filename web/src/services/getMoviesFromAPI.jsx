@@ -1,5 +1,5 @@
 const getMoviesFromAPI = () => {
-  return fetch('https://random-terror.onrender.com/')
+  return fetch('https://random-terror.onrender.com/movies')
     .then((response) => response.json())
     .then((data) => {
       const movies = data.result;
