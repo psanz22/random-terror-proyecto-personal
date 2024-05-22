@@ -4,19 +4,20 @@
 }
 
 button {
-  padding: 60px;
-  margin-bottom: 20px;
-  width: 90px;
-  height: 90px;
+  padding: 50px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   font-size: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: mom;
-  color: purple;
-  background-color: black;
-  border: 1px solid midnightblue;
+  color: yellow;
+  background-color: rebeccapurple;
+  border: 1px solid yellow;
+  position: relative;
+  bottom: 100px;
 }
 button:hover {
   cursor: pointer;
@@ -25,6 +26,12 @@ button:hover {
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAcSfg4gsQpAzAUw5kE7WAzOx8LCnOcR9C5Zf5O-Nz7A&s');
   background-size: cover;
   border: 5px solid black;
-  position: relative;
-  bottom: 10px;
+  // // position: relative;
+  // bottom: 10px;
+}
+
+@media screen and (min-width: 760px) {
+  button {
+    padding: 70px;
+  }
 }

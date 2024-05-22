@@ -11,17 +11,18 @@
   src: url('../fonts/mom.ttf') format('truetype');
 }
 h1 {
-  font-size: 130px;
+  font-size: 80%;
   background-image: url('https://img.freepik.com/fotos-premium/textura-piel-serpiente-negra-fondo-negro_874239-17.jpg');
   background-clip: text;
-  height: 300px;
+  height: 80%;
   color: transparent;
+  margin-top: 60px;
 }
 .question {
   font-family: mom;
   color: black;
-  font-size: 50%;
-  margin-bottom: 60px;
+  font-size: 20%;
+  margin-bottom: 200px;
 }
 header {
   background: linear-gradient(to bottom, red, black);
@@ -30,19 +31,19 @@ header {
   flex-direction: column;
   align-items: center;
   font-family: 'Savage';
-  font-size: 80px;
+  font-size: 500%;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 20vh;
+  height: 35vh;
 }
 main {
   background: linear-gradient(to bottom, black, red);
-  // background-color: black;
-  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 65vh;
+  padding-bottom: 400px;
 }
 
 footer {
@@ -50,8 +51,11 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: black;
-  height: 2vh;
+  height: 3vh;
   color: lightgray;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 h4 {
   font-size: 50px;
@@ -59,9 +63,14 @@ h4 {
   padding-top: 78px;
   color: black;
 }
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: lightgray;
+
+@media screen and (min-width: 760px) {
+  h1 {
+    padding-top: 20px;
+    font-size: 150%;
+    height: 150%;
+  }
+  .question {
+    font-size: 40%;
+  }
 }

@@ -7,49 +7,71 @@
   src: url('../fonts/Savage.ttf') format('truetype');
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 80%;
+  border-radius: 1rem;
+  margin-bottom: 190px;
+  margin-top: 200px;
+  padding: 10px;
+  position: relative;
+  top: 70px;
+}
+
 .title {
-  font-size: 400%;
+  font-size: 200%;
   font-family: 'mom';
   color: rgb(99, 15, 15);
   margin-top: 20px;
+  text-align: center;
+}
+.director {
+  font-size: 110%;
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
 }
 .year {
-  font-size: 20px;
+  font-size: 110%;
   font-family: 'Courier New', Courier, monospace;
   margin-bottom: 7px;
   margin-top: 5px;
-}
-.director {
-  font-size: 40px;
-  color: gray;
-  font-family: 'Courier New', Courier, monospace;
+  color: darkred;
 }
 
 .film_image {
-  width: 25%;
+  width: 70%;
   border-radius: 2rem;
-}
-.description_container {
-  width: 35%;
-  font-size: 20px;
-  text-align: center;
-  margin-bottom: 30px;
-  color: lightgray;
-  font-family: 'Courier New', Courier, monospace;
-}
-.type {
-  color: black;
-  position: relative;
-  bottom: 10px;
-  font-size: 30px;
-  margin-top: 8px;
-  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 20px;
 }
 .cast {
-  color: gray;
+  color: darkred;
   font-style: italic;
-  font-size: 20px;
+  font-size: 100%;
+  text-align: center;
   font-family: 'Times New Roman', Times, serif;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.type {
+  color: white;
+  position: relative;
+  bottom: 10px;
+  font-size: 90%;
+  font-family: 'Courier New', Courier, monospace;
+}
+.description_container {
+  width: 90%;
+  font-size: 100%;
+  text-align: left;
+  margin-bottom: 30px;
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .card {
+  }
 }
