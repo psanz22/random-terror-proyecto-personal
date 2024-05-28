@@ -13,27 +13,28 @@ poster TINYTEXT NOT NULL
 
 );
 
-INSERT INTO movies (title, year, country, director, cast, type, description, poster) VALUES("Climax", 2018, "Francia", "Gaspar Noé", "Sofia Boutella, Romain Guillermic, Alaia Alsafir", "Bizarra, Psicológica, Dura", "Una compañía de bailarinas se jutan para festejar en una escuela abandonada. La noche dejenerará de forma horrorosa cuando descubran que alguien ha hechado LSD en el ponche. Si lo que quieres es sufrir sin ver una gota de sangre, esta es tu película.",
+INSERT INTO movies (title, year, country, director, cast, type, description, poster) VALUES("Climax", 2018, "Francia", "Gaspar Noé", "Sofia Boutella, Romain Guillermic, Alaia Alsafir", "Bizarra, Psicológica, Dura", "Los miembros de una compañía de baile se juntan para festejar en una escuela abandonada. La noche degenera hacia el caos cuando descubren que uno de ellos ha hechado LSD en el ponche.
+ Si lo que quieres es sufrir sin ver una gota de sangre, esta es tu película. Inpirada en hechos reales.",
 "https://m.media-amazon.com/images/I/81cTJ18aPML._AC_UF894,1000_QL80_.jpg");
 
 INSERT INTO movies (title, year, country, director, cast, type, description, poster) VALUES("Martyrs", 2008, "Francia", "Pascal Laugier", "Mylène Jampanoï, Morjana Alaoui, Catherine Bégin",
-"Gore, Psicológica, Brutal", "Esta película es mejor verla sin leer sinopsis alguna. Solo saber que tiene imágenes extremadamente brutales. Las actrices hacen un trabajo espectacular. Personalmente en mi top 3 de películas de terror. Es muy gore pero tiene mensaje, algo no tan fácil de encontrar. Recomendadísima (asegúrate de que sea la original de 2008, no el terrible remake americano",
+"Gore, Psicológica, Brutal", "Esta película es mejor verla sin leer sinopsis alguna. Importante saber que contiene imágenes extremadamente brutales. Las actrices hacen un trabajo espectacular. Es puro gore pero tiene mensaje y reflexión, una mezcla no tan fácil de encontrar. Recomendadísima (asegúrate de que sea la original de 2008, no el terrible remake americano",
 "https://cdn.traileraddict.com/content/the-weinstein-company/martyrs-6.jpg"
   );
   
 INSERT INTO movies (title, year, country, director, cast, type, description, poster) VALUES("Cuando acecha la maldad", 2023, "Argentina", "Demián Rugna", "Ezequiel Rodríguez, Demián Salomón, Silvina Sabater", 
-  "Posesiones, Rural, Auténtica", "En un pueblo remoto de la Argentina rural dos hombres descubren un cuerpo cortado por la mitad. Tremenda película en la que te adentras de lleno en un folklore
+  "Posesiones, Rural, Auténtica", "En un pueblo remoto de la Argentina rural dos hombres descubren un cuerpo cortado por la mitad. Reinterpretación del director de las posesiones demoníacas. Tremenda película en la que te adentras de lleno en un folklore
   rural inventado por el propio director, descubre lo que es un embichado. No lo lamentarás.", "https://pics.filmaffinity.com/Cuando_acecha_la_maldad-815636288-large.jpg");
   
   
 INSERT INTO movies (title, year, country, director, cast, type, description, poster) VALUES("Bite", 2015, "Canada", "Chad Archibald", "Tyler Owen, Phoenix Simpson, Denise Yuen", "Metamorfosis,
-Asquerosa", "El guión de esta película es muy normalito, lo destacable de esta película y por lo que a mí me gusta mucho, es por los efectos prácticos de la transformación de la protagonista
-en una especie de insecto. Muy entretenida.", "https://m.media-amazon.com/images/M/MV5BYzY1ZGFlMWUtOTQ1Ni00NDk4LWE4MDktYmM3YjIxNGRjZTBkXkEyXkFqcGdeQXVyMjQwMjk0NjI@._V1_FMjpg_UX1000_.jpg");
+Asquerosa", "El guión de esta película no es nada del otro mundo, sin embargo lo que sí es destacable son los efectos prácticos de la transformación de la protagonista
+en una especie de insecto. Dale al play.", "https://m.media-amazon.com/images/M/MV5BYzY1ZGFlMWUtOTQ1Ni00NDk4LWE4MDktYmM3YjIxNGRjZTBkXkEyXkFqcGdeQXVyMjQwMjk0NjI@._V1_FMjpg_UX1000_.jpg");
 
 
 INSERT INTO movies (title, year, country, director, cast, type, description, poster) VALUES("It Follows", 2014, "Estados Unidos", "David R. Mitchell", "Maika Monroe, Keir Gilchrist, Olivia 
-Luccardi", "Psicológica, Paranoia", "Un extraño ente persigue a sus víctimas vistiéndose de diferentes personas para poder acercarse. Si te toca... se acabó. Solo puedes librarte
-de él teniendo relaciones sexuales con otra persona y así pasarlo. Enjoy.", "https://www.mubis.es/media/articles/11653/118326/trailer-en-castellano-de-it-follows-y-poster-espanol-original.jpg" );
+Luccardi", "Psicológica, Paranoia", "Un extraño ente persigue a sus víctimas vistiéndose de diferentes personas para poder acercarse. Si te toca... se acabó. Película lenta y de gran belleza con
+un monstruo que pone los pelos de punta. Enjoy.", "https://www.mubis.es/media/articles/11653/118326/trailer-en-castellano-de-it-follows-y-poster-espanol-original.jpg" );
 
 INSERT INTO movies (title, year, country, director, cast, type, description, poster) VALUES("Swallow", 2019, "Estados Unidos", "Carlos Mirabella-Davis", "Haley Bennett, Austin Stowell, Elizabeth Marvel", 
 "psicológica, reflexión, íntima", "Hunter es un ama de casa que acaba de descubrir que está embarazada. Sin entender porqué comienza a sentir un irrefrenable deseo de consumir objetos peligrosos para su salud.
@@ -41,7 +42,7 @@ Delicada y emotiva, una película que no te dejará indiferente.", "https://fr.w
 
 INSERT INTO movies (title, year, country, director, cast, type, description, poster) VALUES ("Train to Busan", 2016, "Corea del Sur", 
 "Yeon Sang-ho", "Gong Yoo, Ma Dong-seok, Kim Soo-an", "Zombies, Apocalíptica", "Sin duda alguna Tren a Busán es una de las mejores películas zombies
-(si no la mejor, ya a gustos) de todos los tiempos. Los zombies son espectaculares, la profundidad de los personajes, gritas, ríes, lloras... 100% recomendadísima", "https://pics.filmaffinity.com/Tren_a_Busan-266744354-large.jpg");
+(si no la mejor, ya a gustos) de todos los tiempos. Los zombies son espectaculares, la profundidad de los personajes, gritas, ríes, lloras... 100% genial", "https://pics.filmaffinity.com/Tren_a_Busan-266744354-large.jpg");
 
 INSERT INTO movies (title, year, country, director, cast, type, description, poster) VALUES("Thanatomorphose", "2012", "Canada", "Éric Falardeau", "Kayden Rose, Émile Beaudry", 
 "Bizarra, Metamorfosis", "¿Te apetece una extrema bizarrada? Imagina que un día te levantas y tu cuerpo ha empezado a pudrirse. Película con buenos efectos prácticos. 
@@ -75,7 +76,7 @@ INSERT INTO movies (title, year, country, director, cast, type, description, pos
    
    
    
-    INSERT INTO movies (title, year, country, director, cast, type, description, poster) VALUES("La Invitación", 2015, "Estados Unidos", "Karyn Kusama", 
+    INSERT INTO movies (title, year, country, director, cast, type, description, poster) VALUES("The Invitation", 2015, "Estados Unidos", "Karyn Kusama", 
     "Tammy Blanchard, Logan Marshall-Green, Michiel Huisman", "Psicológica, Paranoia", "Película con un guión inteligente
      que se desarrolla en una sola ubicación. ¿Está Will paraoico o realmente pasa algo extraños con los dos anfitriones?", "https://lh5.googleusercontent.com/proxy/pdl10fb-ffWmHKHEcxWL2GPhWC-D8zx2paiwaaOF1IiPyXG6tduMJsHKHGEMxFcdYmDu0CbPC1_eByt49Xzu0rfIz5NyWks");
    
@@ -114,8 +115,8 @@ INSERT INTO movies (title, year, country, director, cast, type, description, pos
    
    
        INSERT INTO movies (title, year, country, director, cast, type, description, poster) VALUES("Perfect Blue", 1997, "Japón", "Satoshi Kon", "", "Animación, Psicológica", 
-       "Película icónica que 'inspiró' escenas de Cisne Negro. El maestro Satoshi Kon desdobla la realidad de Mima, la protagonista, de forma
-        magistral mientras cae en una espiral de desdoblamiento de personalidad. Absolutamente recomendada.", "https://i.ebayimg.com/images/g/BwQAAOSw-HxhPPb9/s-l1600.jpg" );
+       "Película icónica que 'inspiró' escenas de Cisne Negro. El maestro Satoshi Kon juega con la realidad de Mima y del espectador de forma
+        magistral mientras cae en una espiral de desdoblamiento de personalidad. Una delicatessen cinematográfica.", "https://i.ebayimg.com/images/g/BwQAAOSw-HxhPPb9/s-l1600.jpg" );
    
    
    
