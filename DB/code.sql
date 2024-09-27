@@ -120,10 +120,25 @@ INSERT INTO movies (title, year, country, director, cast, type, description, pos
    
    
    
-    INSERT INTO movies (title, year, country, director, cast, type, description, poster) VALUES("Posesión Infernal", 2013, "Estados Unidos",
+    INSERT INTO movies (title, year, country, director, cast, type, description, poster) VALUES("Evil Dead", 2013, "Estados Unidos",
     "Fede Álvarez", "Jane Levy, Shiloh Fernandez", "Gore, Classic", "Remake del clásico del terror Evil Dead de 1981 de Sam Raimi. Es el típico guión en el que los personajes ven un cartel luminoso 
     de PELIGRO y se meten sin pensarlo dos veces. Pero tiene escenas que te helarán la sangre, gore puro con una cinematografía espectacular. Si eres capaz de no darle mucha importancia
     al guión y te gustan las escenas sangrientas y macabras, la disfrutarás mucho.", "https://image.tmdb.org/t/p/original/1gDV0Lm9y8ufIKzyf0h0GBgb9Zj.jpg");
+   
+    INSERT INTO movies (title, year, country, director, cast, type, description, poster) VALUES("The Sadness", 2021, "Taiwán", "Rob Jabbaz", "Regina Lei, Berant Zhu, Wang Tzu-Chiang", "Gore, Brutal, Infectados", "Las calles de Taiwán se inundan con sangre y la más cruda 
+    violencia debido a un brote pandémico que convierte a las personas en seres sádicos que solo buscan producir el mayor dolor posible en otros seres humanos. Escenas que hielan la sangre, decisiones que se desvían de los tópicos y la adición de una faceta nueva al infectado 
+    que remueve por dentro a cualquier espectador que se atreva a verla.", "https://pics.filmaffinity.com/the_sadness-961245022-mmed.jpg");
+    
+	INSERT INTO movies (title, year, country, director, cast, type, description, poster) VALUES("28 Days Later", 2002, "UK", "Danny Boyle", "Cillian Murphy, Naomie Harris, Brendan Gleeson", "Apocalíptica, Infectados", "Película que revolucionó el género zombie al convertirlos en infectados capaces de sprintar. 
+    Plagada de escenas icónicas. Si no la has visto, no te la puedes perder.", "https://pics.filmaffinity.com/28_days_later-469569758-mmed.jpg");
+   
+	INSERT INTO movies (title, year, country, director, cast, type, description, poster) VALUES("Goodnight Mommy", 2014, "Austria", "Severin Fiala, Veronika Franz", "Suzanne Wuest, Elias Schwarz, Lukas Schwarz", "Psicológica, Suspense", "La madre de dos gemelos vuelve tras una operación de cirugía estética. 
+    Tiene el rostro completamente vendado y su personalidad ha cambiado, se ha vuelto más fría y distante. Esto hace que los hermanos sospechen que quién hay bajos esas vendas no es su madre.", "https://pics.filmaffinity.com/ich_seh_ich_seh_goodnight_mommy-227747347-mmed.jpg");
+   
+   
+   
+   
+   
    
    
    
