@@ -13,7 +13,7 @@ async function getDBConnection() {
     host: 'sql.freedb.tech',
     user: process.env.DB_USER,
     password: process.env.DB_PASSWORD,
-    database: 'freedb_random-terror',
+    database: 'freedb_random__terror',
   });
 
   return connection;
